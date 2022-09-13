@@ -1,0 +1,45 @@
+body{
+    background-color: #141414;
+}
+
+.header-logo{
+    height: 30px;
+}
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-body-heading{
+    color: #DCDCDC;
+}
+
+.container-body-profile-list{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.profile-pic{
+    height: 192px;
+    width: 192px;
+}
+
+.user-name{
+    color: #DCDCDC;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button-manage-profiles{
+    background-color:#141414;
+    color: #DCDCDC;
+    padding: 10px;
+    border: 1px solid #DCDCDC;
+    font-size: 16px;
+    margin-top: 60px;
+}

@@ -1,0 +1,48 @@
+body{
+    /* background-color: #141414; */
+}
+
+.header{
+    width: 100%;;
+    display:flex;
+    /* background-color:black; */
+    margin: auto;
+}
+
+.header-left{
+    /* background-color:rgb(0,0,255); */
+    display: flex;
+}
+
+.logo{
+    height: 30px;
+    width: 90px;
+}
+
+.header-left-nav{
+    display:flex;
+    margin: auto 20px;
+    /* background-color: red; */
+}
+
+.header-right{
+    margin: auto;
+}
+
+.display-show{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/pic.png);
+}
+
+.show-images-list{
+    display: flex;
+    margin: 10px 10px;
+    padding: 0 px;
+}
+
+.show-images{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
